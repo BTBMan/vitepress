@@ -53,10 +53,9 @@ const { frontmatter: fm } = useData()
 @media (min-width: 640px) {
   .name,
   .text {
-    max-width: 920px;
+    max-width: 640px;
     line-height: 56px;
     font-size: 48px;
-    font-weight: 600;
   }
 
   .name {
@@ -70,7 +69,6 @@ const { frontmatter: fm } = useData()
     max-width: 920px;
     line-height: 72px;
     font-size: 64px;
-    font-weight: 600;
   }
 
   .name {
